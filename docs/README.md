@@ -1,45 +1,33 @@
-# Hello, Docsify!
+# M133 Web-Applikation mit Session-Handling realisieren
 
-> A Docsify starter, with local PlantUML server
+Dieses Semester liegt der Fokus darauf eine Web-Applikation zu realisieren, dass Backend soll mit Programmiersprache PHP umgesetzt werden.
 
-This repo just sets up a basic docsify environment:
+<!-- tabs:start -->
 
-* [Docker Compose](https://docs.docker.com/compose/) to setup and run:
-  * [A Docsify container](https://docsify.js.org/), listening on Port 10000
-  * [A local PlantUML server](https://plantuml.com/), listening on Port 10001
+#### **Handlungsziele**
 
-## Use docker-compose
+1) Vorgabe analysieren, Funktionalität entwerfen und
+Realisierungskonzept festlegen.
+2) Spezifische Funktionalität einer Web-Applikation mit Session-
+Handling, Authentifizierung und Formularüberprüfungen
+realisieren.
+3) Web-Applikation mit einer einer Programmiersprache unter
+Berücksichtigung sicherheitsrelevanter Anforderungen
+programmieren.
+4) Web-Applikation gemäss Testplan auf Funktionalität und
+Sicherheit überprüfen, Testergebnisse festhalten und
+allenfalls erforderliche Korrekturen vornehmen
 
-To get started quickly, just do:
+#### **LBV**
 
-```
-$ git clone https://github.com/bylexus/docsify-starter.git
-$ cd docsify-starter
-$ docker-compose up
-```
+-80%
+   - LB1 (Fallstudie) : 65%
+   - LB2 (Concept-Map) : 20%
+   - LB3 (Lernportfolio) : 15%
+-20%
+  - Mögliche Kurztests
+  - Spontankontrolle Lernportfolios
+  
 
-There are now 2 containers running:
 
-* `docsify`: Docsify on Port 10000 (So browse to http://localhost:10000)
-* `plantuml`: PlantUML server on Port 10001 ( generate PlantUML on the fly: http://localhost:10001/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
-
-Feel free to adapt the `docker-compose.yml` file as needed!
-
-If you need to interact with `docsify-cli`, do so through docker:
-
-```
-$ docker exec -ti docsify docsify help
-```
-
-Your docsify docs are in the `docs/` dir. Feel free to edit them as needed!
-
-## Note for git users
-
-This Repo is meant as template. After cloning, feel free to delete the `.git` dir, and init your own git, e.g.:
-
-```
-$ git clone https://github.com/bylexus/docsify-starter.git
-$ cd docsify-starter
-$ rm -rf .git
-$ git init
-```
+<!-- tabs:end -->
