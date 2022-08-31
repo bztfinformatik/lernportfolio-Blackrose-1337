@@ -20,11 +20,11 @@ allenfalls erforderliche Korrekturen vornehmen
 
 #### **LBV**
 
--80%
-   - LB1 (Fallstudie) : 65%
-   - LB2 (Concept-Map) : 20%
-   - LB3 (Lernportfolio) : 15%
--20%
+- 80%
+  - LB1 (Fallstudie) : 65%
+  - LB2 (Concept-Map) : 20%
+  - LB3 (Lernportfolio) : 15%
+- 20%
   - Mögliche Kurztests
   - Spontankontrolle Lernportfolios
   
