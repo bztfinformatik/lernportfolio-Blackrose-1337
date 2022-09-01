@@ -8,6 +8,7 @@
     <meta name="description" content="Description">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
     <!-- Docsify Theme - liesse sich anpassen // https://jhildenbiddle.github.io/docsify-themeable/#/themes -->
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     <!-- Katex CSS Import -->
@@ -16,7 +17,8 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
     <!-- Mermaid-Plugin Import // https://docsify.js.org/#/markdown?id=supports-mermaid -->
     <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    
+     <!-- Own CSS -->
+     <link rel="stylesheet" href="CSS/own.css">     
 </head>
 
 <body>
@@ -29,11 +31,11 @@
         mermaid.initialize({ startOnLoad: false });
 
         window.$docsify = {
-            name: 'TITLE',
+            name: 'M133',
             repo: '',
             loadNavbar: true, // _navbar.md definiert die Navbar. Kann fuer jedes Verzeichnis definiert werden
             loadSidebar: true, // _sidebar.md definiert die Sidebar. Kann fuer jedes Verzeichnis definiert werden
-            subMaxLevel: 2, // Steht nichts in _sidebar.md drin, wird jeweils automatisch das Markdown-File geparst mit der Tiefe 2
+            subMaxLevel: 3, // Steht nichts in _sidebar.md drin, wird jeweils automatisch das Markdown-File geparst mit der Tiefe 2
 
             // Optionen fuer Suche
             search: {
@@ -43,7 +45,7 @@
                 noData: 'Keine Resultate!',
 
                 // Headline depth, 1 - 6
-                depth: 2,
+                depth: 3,
 
                 hideOtherSidebarContent: false, // whether or not to hide other sidebar content
 

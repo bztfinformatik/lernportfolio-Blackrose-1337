@@ -11,15 +11,22 @@ Die Lektion war vorallem auf den Aufbau des Semester fokussiert und deren notwen
 - Semester ablauf
 - Dokumentation docsify
 - Docker einrichten
-- PHP aufgaben
+- [PHP aufgaben](../tech/php/README.md)
 
 #### **Merksätze**
 
--
+- Container für Docker werden so eingerichtet, damit diese alles enthalten um den Inhalt vollständig wiederzugeben.
+- Docker ladet Container um diese Local abzuspielen. Durch ein saubere Dockereinrichtung fällt XAMPP weg.
+- In der PHP-Sprache können direkt HTML-Elemente integriert werden.
 
 #### **Hausaufgaben**
 
 - Dokumentation führen
-- PHP Aufgaben lösen
+- [PHP Aufgaben lösen](../tech/php/README.md)
 
 <!-- tabs:end -->
+
+## Dokumentation Docsify
+
+Es wurde klar vorgegeben, dass die Dokumentation mit Docsify oder ähnlichen Anwendungen geführt wird. Es soll ein aktuelles Verfahren in der Programmierbranche verwendet werden. Zusätzlich ist eine Dokumentation in Word für solche Projekte unübersichtlich und ermüdend.
+Ich hab dies die letzten Semester schon dies so gehalten. Dieses Semester will ich versuchen noch mehr Plugins zu verwenden, um dem ganzen noch mehr ein lebendiges Gefühl für den Leser zu gestalten, damit es nicht so Trocken wirkt. :tada: :tada: :tada:
