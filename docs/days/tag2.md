@@ -10,7 +10,7 @@ In dieser Lektion haben wir uns nochmal mit der Struktur für unser Semster besc
 
 - Docker Infrastruktur
 - Dokumentation docsify
-- [PHP aufgaben](../tech/php/README.md)
+- [PHP aufgaben](tech/php/README.md)
 
 #### **Merksätze**
 

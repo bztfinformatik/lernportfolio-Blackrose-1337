@@ -11,7 +11,7 @@ Die Lektion war vorallem auf den Aufbau des Semester fokussiert und deren notwen
 - Semester ablauf
 - Dokumentation docsify
 - Docker einrichten
-- [PHP aufgaben](../tech/php/README.md)
+- [PHP aufgaben](tech/php/README.md)
 
 #### **Merksätze**
 
@@ -22,7 +22,7 @@ Die Lektion war vorallem auf den Aufbau des Semester fokussiert und deren notwen
 #### **Hausaufgaben**
 
 - Dokumentation führen
-- [PHP Aufgaben lösen](../tech/php/README.md)
+- [PHP Aufgaben lösen](tech/php/README.md)
 
 <!-- tabs:end -->
 
