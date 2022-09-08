@@ -10,6 +10,10 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+.alert.callout{
+    background-color: aqua;
+    border: solid;
+}
 .markdown-section{
     background-color: rgb(223, 255, 227);
     border-radius: 15px;

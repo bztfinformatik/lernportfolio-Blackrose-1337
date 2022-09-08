@@ -23,9 +23,9 @@ In dieser Lektion haben wir uns nochmal mit der Struktur für unser Semster besc
 - Lernportfolio führen / Notizen erfassen
 - Im Script nachlesen und vorlesen
     - [Rechnen mit Variablen](../tech/rechnenVariablen.md)
-    - [$_GET und $_POST](../tech/get&Post.md)
+    - [\$_GET und \$_POST](../tech/get&Post.md)
     - [Arrays](../tech/array.md)
-- [Programmierauftrag 1](../tech/programmierauftrag.md) auf dem Basisprojekt programmieren
+- [Programmierauftrag 1](tech/programmierauftrag1.md) auf dem Basisprojekt programmieren
 
 #### **Projekt**
 

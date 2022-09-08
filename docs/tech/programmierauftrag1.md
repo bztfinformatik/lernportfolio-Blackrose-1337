@@ -1,5 +1,7 @@
 # Programmierauftrag 1
 
+Das Ziel der Aufgabe war, dass ein gespeicherter Array in einer Tabelle ausgegeben wird. Ich habe im HTML bereich mit einem PHP Code in einer Schleife die Tabelle erstellen lassen.
+
 <!-- tabs:start -->
 
 #### **Code**
