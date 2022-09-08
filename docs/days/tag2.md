@@ -22,14 +22,14 @@ In dieser Lektion haben wir uns nochmal mit der Struktur für unser Semster besc
 
 - Lernportfolio führen / Notizen erfassen
 - Im Script nachlesen und vorlesen
-    - Rechnen mit Variablen
-    - \$_GET und \$_POST
-    - Arrays
-- Programmierauftrag 1 auf dem Basisprojekt programmieren
+    - [Rechnen mit Variablen](../tech/rechnenVariablen.md)
+    - [$_GET und $_POST](../tech/get&Post.md)
+    - [Arrays](../tech/array.md)
+- [Programmierauftrag 1](../tech/programmierauftrag.md) auf dem Basisprojekt programmieren
 
-<!-- tabs:end -->
-
-## Projekt
+#### **Projekt**
 
 Ich habe noch am Tag abgeklärt ob mein geplantes Projekt wohl in das Semster passt.  
 Dies wurde mir bestätigt. Somit habe ich die Woche schon mir gedanken über dieses Projekt gemacht und was dieses alles noch so beinhaltet wird. Ich kann das Projekt klein halten doch hat es sehr viel Potential nach oben aber welches Projekt hat das nicht?  :joy:
+
+<!-- tabs:end -->
