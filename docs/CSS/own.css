@@ -10,7 +10,7 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
-.alert.callout{
+.alert.callout.note{
     background-color: aqua;
     border: solid;
 }
