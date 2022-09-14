@@ -2,7 +2,7 @@
 
 ## Zusamenfassung der Lektion
 
-Wir haben den Unterricht damit begonnen, untereinander die Hausaufgaben zu sichten. Daraufhin haben wir noch in einem Plenum über die unterschiedlichen Methoden gesprochen und uns dabei 3 Lösungen von der Klasse angesehen. Daraufhin haben wir in Gruppen abgesprochen was die unterschiedlichen Variablen ausgeben werden in einem Echo, um klarer festzuhalten, wie Variablennamen funktionieren bei PHP. Zusätzlich haben wir auch nochmals festgehalten, worin sich ``==`` und ``===`` unterscheiden. Zum Schluss haben wir nochmals ``Client Side Rendering`` und ``Server Side Rendering`` besprochen und auch die Aufgabe erhalten ein ``Client Side Rendering`` in einem Diagramm darzustellen.
+Wir haben den Unterricht damit begonnen, untereinander die Hausaufgaben zu sichten. Daraufhin haben wir noch in einem Plenum über die unterschiedlichen Methoden gesprochen und uns dabei 3 Lösungen von der Klasse angesehen. Daraufhin haben wir in Gruppen abgesprochen was die unterschiedlichen Variablen ausgeben werden in einem Echo, um klarer festzuhalten, wie Variablennamen funktionieren bei PHP. Zusätzlich haben wir auch nochmals festgehalten, worin sich [``==``](../tech/unterschied_==_===.md) und [``===``](../tech/unterschied_==_===.md) unterscheiden. Zum Schluss haben wir nochmals [``Client Side Rendering``](../tech/csr_ssr.md) und [``Server Side Rendering``](../tech/csr_ssr.md) besprochen und auch die Aufgabe erhalten ein [``Client Side Rendering``](../tech/csr_ssr.md) in einem Diagramm darzustellen.
 
 <!-- tabs:start -->
 
