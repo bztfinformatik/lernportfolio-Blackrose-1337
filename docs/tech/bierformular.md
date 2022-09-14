@@ -1,6 +1,6 @@
 # Bierformular
 
-Ich habe den Auftrag des Bierformulars so gelöst, dass das Formular auf sich ``selbst verweist`` und zugleich ``nicht alles ersichtlich`` ist je nach Situation. Hätte ich mehr Zeit für die Aufgabe gehabt hätte ich wohl mehr Designe in das ganze Formular bringen können. Doch nun habe ich es mehr schlicht gehalten.
+Ich habe den Auftrag des Bierformulars so gelöst, dass das Formular auf sich ``selbst verweist`` und zugleich ``nicht alles ersichtlich`` ist je nach Situation. Hätte ich mehr Zeit für die Aufgabe gehabt, hätte ich wohl mehr Designe in das ganze Formular bringen können. Doch nun habe ich es mehr schlicht gehalten.
 
 <!-- tabs:start -->
 

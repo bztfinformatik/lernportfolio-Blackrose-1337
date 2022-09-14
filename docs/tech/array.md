@@ -4,7 +4,7 @@
 
 #### **Generell**
 
-Arrays können beliebig viele Werte gespeichert werden und wieder ausgegeben werden. Für ein bestimmten Wert des Arrays muss die richtige Indexstelle angeben werden.
+Arrays können beliebig viele Werte gespeichert werden und wieder ausgegeben werden. Für einen bestimmten Wert des Arrays muss die richtige Indexstelle angeben werden.
 
 ```php
 <?php
@@ -16,7 +16,7 @@ echo $wochentage[1];
 
 #### **Assoziativ**
 
-Bei diesem verfahren wird dem Index des Arrays auch ein Key hinterlegt, welcher dazu dienen soll Werte die man wiedergeben will leichter abzurufen. Da der Zahlenindex ab einer gewissen Menge unübersichtlich wird im gegensatz zu einem Key-System, welches man sich selbst ausgedacht hat.
+Bei diesem Verfahren wird dem Index des Arrays auch ein Key hinterlegt, welcher dazu dienen soll Werte, die man wiedergeben will, leichter abzurufen. Da der Zahlenindex ab einer gewissen Menge unübersichtlich wird, im Gegensatz zu einem Key-System, welches man sich selbst ausgedacht hat.
 
 ```php
 <?php
@@ -35,7 +35,7 @@ echo $wochentage["mo"];
 
 #### **Mehrdimensional**
 
-Man kann Arrays auch verschachteln. Das soll heissen, dass ich in einem Array ein weiteren Array einbinden kann. Dies kann behilflich sein, wenn mehrere Werte zu einem selbigen Objekt gehören aber dennoch voneinander abrufbar sein sollten.
+Man kann Arrays auch verschachteln. Das soll heissen, dass ich in einem Array einen weiteren Array einbinden kann. Dies kann behilflich sein, wenn mehrere Werte zu einem selbigen Objekt gehören, aber dennoch voneinander abrufbar sein sollten.
 
 ```php
 <?php

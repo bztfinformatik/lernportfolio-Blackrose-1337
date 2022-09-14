@@ -5,3 +5,9 @@
   * [GET & POST](tech/get&Post.md)
   * [Programmierauftrag 1](tech/programmierauftrag1.md)
   * [Bierformular](tech/bierformular.md)
+  * [CSR und SSR](tech/csr_ssr.md)
+  * [Dateien auslesen](tech/dateien_lesen.md)
+  * [Dateien schreiben](tech/dateien_schreiben.md)
+  * [Datentyp](tech/datentyp.md)
+  * [== ≠ ===](tech/unterschied_==_===.md)
+  
