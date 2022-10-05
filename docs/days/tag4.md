@@ -24,7 +24,7 @@ Wir haben den Unterricht damit begonnen, untereinander die Hausaufgaben zu sicht
 
 - Erstellen Sie ein [Diagramm](../tech/csr_ssr.md) für das CSR verfahren
 - Lesen Sie die Abschnitte [```Dateien lesen```](../tech/dateien_lesen.md) und [```Datein schreiben```](../tech/dateien_schreiben.md) und machen Sie dazu Notizen in der Lerndoku
-- Erweitern Sie das CSR-Projekt um die Funktion, dass die dargestellten Elemente aus einer Datei lesen kann
+- Erweitern Sie das CSR-Projekt um die Funktion, dass die dargestellten Elemente aus einer [Datei lesen](../tech/dateien_schreiben.md) kann
 
 #### **Projekt**
 

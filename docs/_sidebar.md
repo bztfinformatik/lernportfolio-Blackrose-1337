@@ -3,4 +3,8 @@
   * [Tag2](days/tag2.md)
   * [Tag3](days/tag3.md)
   * [Tag4](days/tag4.md)
-* [Tech](../tech/README)
+  * [Tag5](days/tag5.md)
+  * [Tag6](days/tag6.md)
+  * [Tag7](days/tag7.md)
+* [Tech](../tech/README)  
+  

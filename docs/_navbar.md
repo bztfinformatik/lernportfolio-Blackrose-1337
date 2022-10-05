@@ -1,2 +1,2 @@
 * [Home](/)
-* [Tech](/docs/tech/)
+* [Tech](/docs/tech/)  
