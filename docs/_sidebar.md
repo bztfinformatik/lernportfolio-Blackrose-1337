@@ -6,5 +6,5 @@
   * [Tag5](days/tag5.md)
   * [Tag6](days/tag6.md)
   * [Tag7](days/tag7.md)
-* [Tech](../tech/README)  
-  
+  * [Tag8](days/tag8.md)
+* [Tech](../tech/README)
