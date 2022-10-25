@@ -1,12 +1,23 @@
 # Concept Map
 
+## Begriffe
+
+- [SSR / CSR](tech/csr_ssr.md)
+- [MVC](tech/mvc.md)
+- [Template-Engine(Twig)](tech/twig.md)
+- [Use-Case](tech/use_cases.md)
+- [Akteure](tech/akteure.md)
+- [Funtionale Anforderungen](tech/anforderungen.md)
+- [Testszenario](tech/testszenarios.md)
+- [Testfall](tech/testfall.md)
+
 ```plantuml
 @startuml
 [SSR / CSR]
 [MVC]
 [Template-Engine]
 [Use-Case]
-[Aktoren]
+[Akteure]
 [Funktionale Anforderung]
 [Testszenario]
 [Testfall]
@@ -14,8 +25,8 @@
 [MVC]->[SSR / CSR]
 [Template-Engine]-down->[MVC]
 [MVC]-->[Use-Case]
-[Use-Case]<--[Aktoren]
-[Aktoren]--->(Testszenario)
+[Use-Case]<--[Akteure]
+[Akteure]--->(Testszenario)
 [Funktionale Anforderung]<->[Use-Case]
 [Funktionale Anforderung]<-->(Testszenario)
 [Testszenario]<--[Testfall]
@@ -41,7 +52,7 @@ note left of (Template-Engine)
     Twig wird als Template-Engine benutzt für PHP
 end note
 
-note right of (Aktoren)
+note right of (Akteure)
     Sind die Nutzer des Programms
     Sie führen Sachen auf dem Programm aus
 end note

@@ -4,7 +4,7 @@ Das Ziel der Aufgabe war, dass ein gespeicherter Array in einer Tabelle ausgegeb
 
 <!-- tabs:start -->
 
-#### **Code**
+## **Code**
 
 ```php
 <?php
@@ -25,7 +25,7 @@ $array = array(3,7,5,1,8,13,2);
 </table>
 ```
 
-#### **Ausgabe**
+## **Ausgabe**
 
 ![PHP erstellte Tabelle in HTML](../../pics/auftrag1.png)
 

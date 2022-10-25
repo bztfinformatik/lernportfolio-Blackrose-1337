@@ -1,6 +1,6 @@
 # Quasar
 
-Quasar ist ein **Open-Source**-[Vue.js](../tech/vue_js.md)-basiertes [Framework](../tech/framework.md), mit dem es als Webentwickler **schnell** möglich ist **ansprechende Websites/Apps** in vielen Varianten  zu erstellen.  
+Quasar ist ein **Open-Source**-[Vue.js](../projekt/vue_js.md)-basiertes [Framework](../tech/framework.md), mit dem es als Webentwickler **schnell** möglich ist **ansprechende Websites/Apps** in vielen Varianten  zu erstellen.  
 
 <!-- tabs:start -->
 

@@ -1,6 +1,6 @@
 # Vue.js
 
-Vue ist ein [JavaScript](../tech/javascript.md)-[Framework](../tech/framework.md) zum Erstellen von Benutzeroberflächen. Es baut auf Standard-HTML, CSS und [JavaScript](../tech/javascript.md) auf und bietet ein **deklaratives und komponentenbasiertes Programmiermodell**, das Ihnen hilft, einfache oder komplexe Benutzeroberflächen **effizient** zu entwickeln.
+Vue ist ein [JavaScript](../projekt/javascript.md)-[Framework](../tech/framework.md) zum Erstellen von Benutzeroberflächen. Es baut auf Standard-HTML, CSS und [JavaScript](../projekt/javascript.md) auf und bietet ein **deklaratives und komponentenbasiertes Programmiermodell**, das Ihnen hilft, einfache oder komplexe Benutzeroberflächen **effizient** zu entwickeln.
 
 **Deklaratives Rendering** : Vue **erweitert** Standard-HTML um eine Vorlagensyntax, die es ermöglicht, die HTML-Ausgabe basierend auf dem JavaScript-Status deklarativ zu beschreiben.
 
