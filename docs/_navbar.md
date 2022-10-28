@@ -1,2 +1,3 @@
 * [Home](/)
-* [Tech](/docs/tech/)  
+* [Projekt](projekt/README.md)
+* [Tech](tech/README.md)
