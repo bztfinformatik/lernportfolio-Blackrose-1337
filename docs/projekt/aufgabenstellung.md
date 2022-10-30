@@ -34,11 +34,68 @@ Manuell werden ausgewählte Fotos und Auszüge aus den Texten in eine Bildergale
 
 ## Funktionale Anforderungen
 
-| ID    | Funktionale Anforderung      | ID-UseCase  | Auslöser | Beschreibung   | Akteur | Vorbedingungen | Nachbedingungen |
-|-------|------------------------------|-------------|----------|----------------|--------|----------------|-----------------|
-| FA01 | **Aufruf Formular** | Aufruf der Seite | Der Aufruf der Seite öffnet dem Teilnehmenden ein leeres Formular | Teilnehmende | - | - |
-| FA02 | **Teilnahme Wettbewerb** | Button Senden | Teilnehmende des Gewinnspiels können Kontaktdaten, Fotos und Beschreibung ihres Projekts online hochladen, ohne Login/"Registration" | Teilnehmende | Pflichfelder ausgefüllt | Teilnehmende/er wird über erfolgreichen Versand informiert und start **UC03** |
-| FA03 | **Verifizierung** | Button Senden | Nach dem Absenden des Teilnahmeformulars erhalten Benutzer/innen eine Bestätigungsmail mit automatisch generiertem Login (E-Mail/Passwort) | Teilnehmende | Projekt erfolgreich versendet **UC02** | - |
+| ID    | Funktionale Anforderung      | ID-UseCase  | Auslöser | Beschreibung   | Akteur |
+|-------|------------------------------|-------------|----------|----------------|--------|
+| FA01 | **Aufruf Formular** | **UC01** | Aufruf der Seite | Bein Aufruf der Wettbewerbseite wird ein leeres Formular dargestellt. | Teilnehmende |
+| FA02 | **Bildupload** | **UC01** | Klick auf Button durchsuchen / optional: Drag and Drop | Bilder wird hochgeladen um vom Frontend zu Base64 umkoodiert um es später zu versenden | Teilnehmende |
+| FA03 | **Teilnahme Wettbewerb** | **UC01** | Button Senden | Die Daten welche im Formular festgehalten wurden und die umkoodierten Bilder werden ans Backend-API gesendet. Das Backend koodiert Den Base64 code wieder zu Bilder um legt ein neues Verzeichniss an indem die Bilder gespeichert werden, der Pfad zu den Bildern wird in der Datenbank gespeichert. Alle anderen Informationen werden benfalls sauber auf der Datenbank hinterlegt. Auf die E-mail wird eine Verifizierung-Mail entsendet mit automatisch generiertem Login (E-mail/Passwort) wie auch zugleich eine Informationsmail an den Admin | Teilnehmende |
+| FA04 | **Optional: Aufruf Projekt** | **UC02** | Login auf der Webseite als Teilnehmende/r | Nach dem Einlogen, wird das Projekt des Teilnehmers vom Backend angefoddert. Das Backend holt sich die Daten von der Datenbank schreibt die Bilder zu Base64 um und versendet diese an die Frontend-API. Frontend schreibt das Base64 um und gibt die Daten wieder in einer GUI aus. | Teilnehmende |
+| FA05 | **Jury-Konto anlegen** | **UC03** | E-mail von künftigem Jurymitglied wird eingegben evtl. noch weitere Informationen und button hinzufüügen wird geklickt | Frontend überprüft ob alle nötigen Daten angeben wurden, falls ja werden die Informationen ans Backend versendet. Das Backend hinterlegt das Mitglied auf der Datenbank und generiert ein Passwort, welches per Mail an die Jury versendet wird. Falls Informationen fehlen wird dies in der GUI Angezeigt um den Akteuer zu informaieren. | Admin |
+| FA06 |  **Passwortreset** | **UC05** | Admin drückt Button ``Passwort zurücksetzen`` | Es wird vom Frontend ein Fenster aufgerufen, wobei der Vorgang nochmal bestätigt werden muss. Wenn der Admin bestätigt wird das Backend-API angesprochen zum reset. Das Backend überprüft ob jemand mit der Adminrolle dies ausführt. Wenn es zutrifft wird der User von der Datenbank rausgesucht und das hinterlegte Passwort gelöscht, daraufhin generiert das Backend ein neues Passwort speichert dieses ab und sendet dieses per Mail an den entsprechenden User. | Admin |
+| FA07 | **Änderungen Speichern** | **UC06** | Admin drückt auf ``Speichern`` | Das Projekt mit seinen Änderungen wird genommen und an das Backend versendet. Das Backend überschreibt das entsprechende Projekt falls Werte sich geändert haben mit den Änderungen | Admin |
+
+## UC-Diagramm
+
+<!-- tabs:start -->
+
+### **UC01**
+
+```plantuml
+@startuml
+actor Teilnehmende as T
+
+package Frontend {
+"Show side" as (show)
+}
+package Backend {
+"Call side" as (call)
+"Send side" as (send)
+}
+T --> (call)
+(call) --> (send)
+(send) --> (show)
+(show) --> T
+@enduml
+```
+
+### **UC03**
+
+```plantuml
+@startuml
+actor Admin as A
+actor Jury as J
+package Frontend {
+"Hinzufügen" as (add)
+"Information" as (info)
+}
+package Backend {
+"Add Jury API" as (addback)
+"Create Jury" as (create)
+"Create PW" as (createPW)
+"Send Mail" as (sendmail)
+}
+A --> (add)
+(add) --> (addback)
+(addback) --> (create)
+(create) --> (createPW)
+(create) --> (sendmail)
+(create) --> (info)
+(sendmail) --> J
+(info) --> A
+@enduml
+```
+
+<!-- tabs:end -->
 
 ## Darstellung der Seiten
 

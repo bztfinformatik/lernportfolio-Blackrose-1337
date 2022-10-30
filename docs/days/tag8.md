@@ -11,8 +11,8 @@ Abgabe LB1 und LB2 besprochen
 - kann in eigenen Worten formulieren wie die LB1/LB2 aufgebaut ist
 - hat das Lernportfolio für die LB1/LB2 vorbereitet
 - (LB1) : kann [Use-Cases](../tech/use_cases.md) formulieren
-- (LB1) : kann [Anforderungen](../tech/anforderung.md) formulieren
-- (LB1) : kann [Testszenarios](../tech/testszenarios.md) formulieren
+- (LB1) : kann Anforderungen formulieren
+- (LB1) : kann Testszenarios formulieren
 
 ### **Hausaufgaben**
 

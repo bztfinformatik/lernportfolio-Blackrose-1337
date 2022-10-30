@@ -7,4 +7,4 @@ Ein einzelner Use Case wird normalerweise so benannt, wie das Ziel aus Sicht des
 
 ## Projekt Use Cases
 
-Die Use-Cases meines Projektes sind [hier](projekt/use_cases_projekt.md).
+Die Use-Cases meines Projektes sind [hier](/projekt/aufgabenstellung.md).

@@ -1,0 +1,10 @@
+# Testszenarios
+
+| Testszenario | Title | Akteur | Beschreibung | Erwartung |
+| ------------ | ----- | ------ | ------------ | --------- |
+| **T01** | **Aufruf Wettbewerb** | Teilnehmende | Die Wettbewerbseite wird aufgerufen | Die Seite wird wie gewünscht in einem sauberen GUI augerufen und es wird ein leeres Formular zum ausfüllen dargestellt. |
+| **T02** | **Bild hochladen** | Teilnehmende | Ein Bild wird hochgeladen | Das Bild wird sauber hochgeladen und in Base64 umkoodiert und bereit gelegt zum versenden. |
+| **T03** | **Versenden des Formulars** | Teilnehmende | Das ausgefüllte Formular und die bereitgelegten Bilder werden versendet | Das Formular und die Bilder werden an das Backend versendet. Das Backend erstellt ein Verzeichnis für die Bilder koodiert diese wieder zu Bildern hinterlegt diese im Verzeichniss und hinterlegt den Pfad in der Datenbank. Alle Informationen werden sauber auf der Datenbank hinterlegt. Es wird eine Verifizierungsmail an die angebene Mailadresse versendet inclusive generiertem Passwort. Der Admin wird per Mail über den neune Teilnehmer informaiert. Sobald der Prozess durch ist wird eine Rückmeldung an das Frontend gesendet und der Teilnehmende wird informiert, dass er die Verifizierungsmail bestätigen soll. |
+| **T04** | **Jury mitglied erstellen** | Admin | Mailadresse des Jurymitglied wird eingegeben und mit Hinzufügen wird das Konto angelegt | Das Konto für das Jurymitglied wird erfolgreich erstellt und im wird per Mail sein Passwort zugesendet |
+| **T05** | **Bewerten** | Jury | Jury Bewertet Projekt und drückt auf Speichern | Die Bewertung der Jury wird sauber auf der Datenbank hinterlegt. |
+| **T06** | **Auswertung** | Admin | Der Admin öffnet die Seite für die Auswertung | Die Informationen werden vom Backend geholt und in einer Liste sauber Dargestellt |
