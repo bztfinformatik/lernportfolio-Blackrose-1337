@@ -95,6 +95,32 @@ A --> (add)
 @enduml
 ```
 
+### **UC04**
+
+```plantuml
+@startuml
+actor Admin as A
+package Frontend {
+"Call project" as (call)
+"Show project" as (show)
+"Send changes" as (send)
+"Information" as (info)
+}
+package Backend {
+"get project API" as (get)
+"save change Project API" as (change)
+}
+A --> (call)
+(call) --> (get)
+(get) --> (show)
+(show) --> A
+A --> (send)
+(send) --> (change)
+(change) --> (info)
+(info) --> A
+@enduml
+```
+
 <!-- tabs:end -->
 
 ## Darstellung der Seiten
