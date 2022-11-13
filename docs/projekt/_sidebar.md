@@ -8,3 +8,4 @@
   * [Quasar](projekt/quasar.md)
   * [VueJs](projekt/vue_js.md)
   * [Testszenarios](projekt/testszenarios.md)
+  * [Abgabe 2 Doku](projekt/abgabe2.md)
