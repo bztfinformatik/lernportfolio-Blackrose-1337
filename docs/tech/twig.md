@@ -92,3 +92,35 @@ capitalize: |   ändert das erste Zeichen einer Zeichenfolge in einen Großbuchs
 upper:  |   ändert alle Zeichen einer Zeichenfolge in Großbuchstaben.
 first:  |   zeigt die erste Zeile eines Datenfeldes an.
 length: |   gibt die Größe des Variablenwertes zurück.
+
+## if Methode
+
+Die **if**-M;ethode bei Twig ist ähnlich wie bei **PHP**. Damit kann überprüft werden ob eine Angabe zustimmt (``true``) oder nicht zustimmt (``false``). Dazu folgen gleich folgendes Beispiel.
+
+### Beispiele
+
+<!-- tabs:start -->
+
+#### **Standard**
+
+```twig
+
+{% if online == flase %}
+    <p>Unsere Webseite ist momentan nicht erreichbar<p>
+{% endif %}
+```
+
+#### **Array empty check**
+
+```twig
+
+{% if users %}
+    <ul>
+        {% for user in users %}
+            <li>{{ user.username}}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+```
+
+<!-- tabs:end -->

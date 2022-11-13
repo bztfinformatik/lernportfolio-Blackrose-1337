@@ -1,4 +1,7 @@
 * [Home](/)
+* [Tech](tech/README)
+* [Projekt](projekt/README)
+* [LB2](lb2/README)
   * [Tag1](days/tag1.md)
   * [Tag2](days/tag2.md)
   * [Tag3](days/tag3.md)
@@ -7,4 +10,3 @@
   * [Tag6](days/tag6.md)
   * [Tag7](days/tag7.md)
   * [Tag8](days/tag8.md)
-* [Tech](../tech/README)

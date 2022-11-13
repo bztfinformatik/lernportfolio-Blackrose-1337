@@ -21,7 +21,7 @@ Abgabe LB1 und LB2 besprochen
   - ~10% Formulierung der [funktionale Anforderungen](../projekt/aufgabenstellung.md) und Use-Cases
   - ~5% [Testszenarios](../projekt/testszenarios.md) wurde erarbeite
 
-- LB2 ([Concept-Map](../tech/concept_map.md)) - Abgabe 1 - 30.Oktober (Sonntag Abend 20:00 Uhr / Github) Aufgabe
+- LB2 ([Concept-Map](lb2/concept_map.md)) - Abgabe 1 - 30.Oktober (Sonntag Abend 20:00 Uhr / Github) Aufgabe
   - ~30% Vorgegebene Anzahl Begriffe erläutert und Zusammenhänge aufgezeigt / Neuralgische Punkte erkannt
   - ~30% Zusammenhänge / Verknüpfungen sind klar, aussagekräftig begründet
   - ~20% Qualität des Netzes, bezogen auf netzartige Verknüpfungen (Keine lineare, kettenartige Verknüpfungen, Inseln oder Überschneidungen)

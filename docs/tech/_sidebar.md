@@ -1,4 +1,5 @@
 * [Projekt](projekt/README.md)
+* [LB2](lb2/README.md)
 * [Tech](tech/README.md)
   
   * [Akteure](tech/akteure.md)

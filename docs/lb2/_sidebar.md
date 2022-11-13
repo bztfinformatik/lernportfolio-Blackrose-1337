@@ -1,0 +1,5 @@
+* [Projekt](projekt/README.md)
+* [Tech](tech/README.md)
+* [LB2](lb2/README.md)
+  * [Abgabe 1](lb2/concept_map.md)
+  * [Abgabe 2](lb2/concept_map2.md)

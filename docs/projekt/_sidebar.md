@@ -1,6 +1,6 @@
-* [Projekt](projekt/README.md)
+* [LB2](../lb2/README.md)
 * [Tech](tech/README.md)
-  
+* [Projekt](projekt/README.md)
   * [Architekturkonzept](projekt/architekturkonzept.md)
   * [Aufgabenstellung](projekt/aufgabenstellung.md)
   * [Javascript](projekt/javascript.md)
