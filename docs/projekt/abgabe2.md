@@ -16,7 +16,8 @@ Ich habe festgestellt, dass ich im Frontend eine Base an den Elementen, die ich 
 
 ## Stand
 
-Ich konnte leider noch nicht die Bilder die ins Frontend lade nehmen und zu base64 umwandeln um ans Backend zu senden. Daher sind diese funktionale Anforderungen verschoben.
+Ich konnte leider noch nicht die Bilder die ins Frontend lade nehmen und zu base64 umwandeln um ans Backend zu senden. Daher sind diese funktionale Anforderungen verschoben. Zusätzlich fehlt mir noch der Desgine möglichkeit für den Admin, die Möglichkeit für den User seine Projekt zu bearbeiten oder seine Daten ist auch noch nicht clear. Wie auch die Bewertung und Auswertung der Bewertung fehlt ebenfalls noch.
+Ich hab noch einiges zu erledigen...
 
 | ID    | Funktionale Anforderung      | ID-UseCase  | Auslöser | Beschreibung   | Akteur | Erledigt |
 |-------|------------------------------|-------------|----------|----------------|--------|----------|
