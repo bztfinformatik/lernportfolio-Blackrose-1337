@@ -3,3 +3,4 @@
 * [LB2](lb2/README.md)
   * [Abgabe 1](lb2/concept_map.md)
   * [Abgabe 2](lb2/concept_map2.md)
+  * [Abgabe 3](lb2/concept_map3.md)
