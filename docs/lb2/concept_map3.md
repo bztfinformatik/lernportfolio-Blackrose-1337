@@ -35,11 +35,11 @@
 
 [mysql-e] --> (mysqli-e) : Weiterentwicklung
 
-[DBMS) <--> (PostgreSQL) : objektrelational
-[DBMS) <--> (MySQL) : relational
+[DBMS] <--> (PostgreSQL) : objektrelational
+[DBMS] <--> (MySQL) : relational
 
-[Security) <--> (prepState) : Platzhalter-Daten
-[Security) <- - -> (sql-inj) : Sicherheitslücke ausnutzen
+[Security] <--> (prepState) : Platzhalter-Daten
+[Security] <--> (sql-inj) : Sicherheitslücke ausnutzen
 
 ' ### Notes ###
 note left of (mysql-e)
