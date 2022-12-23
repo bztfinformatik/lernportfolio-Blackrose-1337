@@ -45,7 +45,7 @@ Der aktuelle Stand ist für mich noch **unbefriedigend**, daher werde ich noch v
 | Testfall | Testszenario | Tester | Status | Beschreibung |
 | -------- | ------------ | ------ | ------ | ------------ |
 | **TF01** | **T01** | Yannick Basler | Erfolgreich | Der Aufruf der Startseite funktioniert tadellos |
-| **TF02** | **T02** | Yannick Basler | Zum Teil erfolgreich | Dem Code fehlt ein passendes Timeout "await" die Bilder werden in Base64 konvertiert aber der Code wartet dies nicht ab, bevor die Daten versendet werden. |
+| **TF02** | **T02** | Yannick Basler | Erfolgreich | Die Konvertierung funktioniert |
 | **TF03** | **T03** | Yannick Basler | Zum Teil erfolgreich | Daten werden versendet, User wird erstellt, Passwort wird generiert und Hash wird hinterlegt. Mailfunktion ist noch nicht implementiert und Bilder werden noch nicht abgespeichert. |
 | **TF04** | **T04** | Yannick Basler | Zum Teil erfolgreich | Mailfunktion noch nicht implementiert |
 | **TF05** | **T05** | Yannick Basler | Misserfolg | Übertragung der Bewertung noch nicht erstellt. Nur Bewertungsraster wird aktuell sauber an das Frontend überliefert. |
