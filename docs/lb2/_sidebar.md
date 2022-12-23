@@ -4,3 +4,4 @@
   * [Abgabe 1](lb2/concept_map.md)
   * [Abgabe 2](lb2/concept_map2.md)
   * [Abgabe 3](lb2/concept_map3.md)
+  * [Abgabe 4](lb2/concept_map4.md)

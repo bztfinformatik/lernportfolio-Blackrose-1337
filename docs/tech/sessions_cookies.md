@@ -2,7 +2,8 @@
 
 ## Sessions
 
-Session werden innerhalb einer Programmiersprache gespeichert auf der Seite des Servers (eigene generiete Datenbank names Seassions).
+Sessions sind dazu da Information festzuhalten während einer andauernden aktiven Kommunikation (Sitzung) um diese zu authorisieren. Zum Beispiel ``userid``, ``username``, ``ip`` und ``Authorisierungsrolle``.
+Session werden innerhalb einer Programmiersprache gespeichert auf der Seite des Servers (eigene generierte Datenbank namens Sessions).
 
 ```php
 <?php
@@ -10,11 +11,15 @@ session_start();
 ?>
 ```
 
-Aufruf der Seassion wird für jedes einzel erstellte PHP-Skript benötigt, wenn nicht objektorientiert gearbeitet wird.
+> [!Note]
+> Aufruf der Session wird für jedes einzel erstellte PHP-Skript benötigt, wenn nicht objektorientiert gearbeitet wird.
 
 ## Cookies
 
-- cookies werden beim Besucher der Webseite Local gespeichert
+Cookies können eine ähnliche Aufgabe erfüllen wie auch **Sessions**, doch können diese auch über **eine Sitzung** hinaus, auch wenn die Kommunikation unterbrochen wird noch beständig bleiben, dies wird mit der ``Lebenszeit`` im Cookie selbst definiert. Sobald diese abgelaufen ist, wird der Cookies gelöscht.
+
+> [!Note]
+> Cookies werden auch beim Besucher der Webseite Local gespeichert
 
 ### Cookie setzen
 
